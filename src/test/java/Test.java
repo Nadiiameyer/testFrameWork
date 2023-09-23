@@ -1,5 +1,6 @@
 public class Test {
     public static void main(String[] args) {
+        
         System.out.println(
                 "1. Login - Локатор: id("login_field")",
                 "2.Password - Локатор: id("password")",
@@ -20,6 +21,6 @@ public class Test {
 
                 "4. " Set up this workflow " - Локатор: //button[contains(text(), " Set up this workflow ")]",
 
-                "5. " Run workflow " - Локатор: //button[contains(text(), "Run workflow")]");
+                "5. " Run workflow " - Локатор: //button[contains(text(), " Run workflow ")]");
     }
 }
